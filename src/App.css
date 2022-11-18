@@ -1,38 +1,244 @@
-.App {
+header {
+  width: auto;
+  height: 115px;
+  /* background-color: green; */
+  /* position: absolute; */
+  /* width: 90%;
+  left: 20px; */
+  /* border-bottom: 2px solid #D9D9D9; */
+
+}
+
+div.header-image {
+  /* logo-removebg-preview (1) 2 */
+  position: absolute;
+  width: 149px;
+  height: 180px;
+  left: 6px;
+  top: -19px;
+  background: url(logo-removebg-preview.svg);
+}
+
+h1.header-title {
+  /* Ramaera industries */
+  position: absolute;
+  width: 235px;
+  height: 35px;
+  left: 141px;
+  top: 57px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.34px;
+  line-height: 35px;
+  margin-top: 0px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+aside {
+  /* width: 20%; */
+  /* border-right: px solid #D9D9D9; */
+}
+nav.menu {
+  margin-top: 64px;
+  /* background-color: red; */
+}
+
+nav > ul > li {
+  font-weight: 400;
+}
+
+main {
+  width: 80%;
+  /* margin-left: 42px; */
+  /* background-color: brown; */
+  
+}
+
+main > h1 {
+  /* Project */
+  height: 53px;
+  left: 247px;
+  top: 172px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35.34px;
+  line-height: 53px;
+  /* identical to box height */
+
+  background: linear-gradient(90deg, #ECE9E6 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+table.projects {
+  /* Rectangle 2 */
+box-sizing: border-box;
+/* background: linear-gradient(269.74deg, rgba(255, 255, 255, 0.21) -254.09%, rgba(255, 255, 255, 0) 99.84%); */
+border: 1px solid #FFFFFF;
+border-radius: 16.3366px;
+max-height: 670px;
+}
+
+table.projects > thead {
+  height: 75px;
+
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+tbody {
+  padding: 20px 10px 20px 10px;
+  border: 1px solid #FFFFFF
+}
+
+img.project-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  background: #FFFFFF;
+  /* box-shadow: 0px 0px 4px 0px #FFFFFF40; */
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 15px;
+}
+
+.border{
+  position: absolute;
+  width: 90%;
+  left: 10%;
+  border-bottom: 2px solid #D9D9D9;
+}
+
+.middle-border {
+  
+  border-bottom: 2px solid #D9D9D9;
+  position: relative;
+  transform: rotate(-90deg);
+  width :245px;
+  height: 1px;
+  top: 200px;
+}
+
+.menu > ul {
+  list-style-type : none;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-around;
+  float: left;
+
+  /* background-color: olivedrab; */
+}
+
+.menu > ul > li > div > img{
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+/* table, th, tr, td { */
+table > tbody > tr {
+  /* border-bottom: 35px; */
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-collapse: collapse;
+}
+
+
+
+.entity-row {
+  background: linear-gradient(90deg, #141E30 0%, #243B55 100%);
+/* border: 1px solid #FFFFFF; */
+/* border-bottom: 1px solid white; */
+
+}
+
+.empty-row {
+  height: 32px;
+}
+
+.typography{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.interested{
+  border: 1px solid #FFFFFF;
+  border-radius: 35px;
+  padding: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .interested-box{
+  margin-bottom: 0px;
+} */
+
+.interested-people{
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+text-align: left;
+margin: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button{
+  
+  width: 179px;
+  height: 42px;
+  background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+}
+
+.title-underline{
+  border-top: 3px solid #D9D9D9;
+  position: relative;
+  /* transform: rotate(-90deg); */
+  width :145px;
+  height: 1px;
+  left: -235px;
+  top: 65px;
+}
+
+article{
+  margin-right: 20px;
+}
+
+.progress{
+  position: relative;
+  left: 25%;
+  border: 1px solid #FFFFFF;
+  /* background-color: olivedrab; */
+  background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);  
+  border-radius: 35px;
+  /* padding: 5px; */
+  width: 600px;
+  margin: 20px;
+}
+
+.header-title{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+   justify-content: center;
+   
 }
