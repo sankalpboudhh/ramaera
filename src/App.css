@@ -1,12 +1,6 @@
 header {
   width: auto;
   height: 115px;
-  /* background-color: green; */
-  /* position: absolute; */
-  /* width: 90%;
-  left: 20px; */
-  /* border-bottom: 2px solid #D9D9D9; */
-
 }
 
 div.header-image {
@@ -31,18 +25,13 @@ h1.header-title {
   font-size: 23.34px;
   line-height: 35px;
   margin-top: 0px;
-  /* identical to box height */
 
   color: #FFFFFF;
 }
 
-aside {
-  /* width: 20%; */
-  /* border-right: px solid #D9D9D9; */
-}
+
 nav.menu {
   margin-top: 64px;
-  /* background-color: red; */
 }
 
 nav > ul > li {
@@ -51,8 +40,7 @@ nav > ul > li {
 
 main {
   width: 80%;
-  /* margin-left: 42px; */
-  /* background-color: brown; */
+  
   
 }
 
@@ -73,16 +61,16 @@ main > h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 table.projects {
   /* Rectangle 2 */
 box-sizing: border-box;
-/* background: linear-gradient(269.74deg, rgba(255, 255, 255, 0.21) -254.09%, rgba(255, 255, 255, 0) 99.84%); */
 border: 1px solid #FFFFFF;
 border-radius: 16.3366px;
 max-height: 670px;
+margin-right: 40px;
+margin-bottom: 40px;
 }
 
 table.projects > thead {
@@ -106,7 +94,6 @@ img.project-image {
   width: 70px;
   border-radius: 35px;
   background: #FFFFFF;
-  /* box-shadow: 0px 0px 4px 0px #FFFFFF40; */
 }
 
 .project-name {
@@ -146,7 +133,6 @@ img.project-image {
   justify-content: space-around;
   float: left;
 
-  /* background-color: olivedrab; */
 }
 
 .menu > ul > li > div > img{
@@ -159,9 +145,7 @@ img.project-image {
   justify-content: space-around
 }
 
-/* table, th, tr, td { */
-table > tbody > tr {
-  /* border-bottom: 35px; */
+table, th, tr {
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   border-collapse: collapse;
@@ -171,9 +155,6 @@ table > tbody > tr {
 
 .entity-row {
   background: linear-gradient(90deg, #141E30 0%, #243B55 100%);
-/* border: 1px solid #FFFFFF; */
-/* border-bottom: 1px solid white; */
-
 }
 
 .empty-row {
@@ -190,9 +171,6 @@ table > tbody > tr {
   padding: 15px;
 }
 
-/* .interested-box{
-  margin-bottom: 0px;
-} */
 
 .interested-people{
 font-size: 22px;
@@ -214,7 +192,6 @@ button{
 .title-underline{
   border-top: 3px solid #D9D9D9;
   position: relative;
-  /* transform: rotate(-90deg); */
   width :145px;
   height: 1px;
   left: -235px;
@@ -229,16 +206,13 @@ article{
   position: relative;
   left: 25%;
   border: 1px solid #FFFFFF;
-  /* background-color: olivedrab; */
   background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);  
   border-radius: 35px;
-  /* padding: 5px; */
   width: 600px;
   margin: 20px;
 }
 
 .header-title{
   display: flex;
-   justify-content: center;
-   
+   justify-content: center;  
 }

@@ -1,7 +1,4 @@
 import "../App.css";
-// import Navbar from "./Components/Navbar";
-// import rameaeraLogo from "./logo-removebg-preview.svg";
-// import profileIcon from "./images/Profile.png";
 import profileIcon from "../images/Profile.png";
 import finance from "../images/finance.png";
 import project from "../images/project.png";
@@ -10,6 +7,7 @@ import hotelImg from "../images/hotel.png";
 import garammasala from "../images/garam-masala.png";
 import technologyImg from "../images/technology.jpg";
 import fmcgImg from "../images/fmcg.png";
+import active from "../images/active.png";
 import { useNavigate } from "react-router-dom";
 
 function LandingPage() {
@@ -66,6 +64,7 @@ function LandingPage() {
                 <th>Name</th>
                 <th>About</th>
                 <th width="20%">Status</th>
+                <th> {}</th>
               </tr>
             </thead>
             <tbody>
@@ -84,7 +83,10 @@ function LandingPage() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
                   nisi, mi, ornare aliquet.{" "}
                 </td>
-                <td className="typography">Active</td>
+
+                <td className="typography">
+                  Active <img src={active} alt="active"></img> <span> Bid</span>
+                </td>
               </tr>
               <tr className="empty-row"></tr>
               <tr className="entity-row">
@@ -104,7 +106,9 @@ function LandingPage() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
                   nisi, mi, ornare aliquet.{" "}
                 </td>
-                <td className="typography">Active</td>
+                <td className="typography">
+                  Active <img src={active} alt="active"></img> <span> Bid</span>
+                </td>
               </tr>
               <tr className="empty-row"></tr>
               <tr className="entity-row">

@@ -12,9 +12,6 @@ import "../App.css";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
 export default function Masala() {
-  ///////
-
-  ///////
   const header = "Garam Masala";
 
   const discription =
@@ -65,7 +62,6 @@ export default function Masala() {
         </aside>
 
         <div className="middle-border"></div>
-        {/* <div> */}
         <main>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <article>{discription}</article>
