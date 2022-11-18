@@ -80,7 +80,7 @@ export default function Masala() {
             </div>
             <div style={{ margin: "auto" }}>
               <p className="interested-people">500+</p>
-              <p style={{ margin: "0px" }}>people interested</p>
+              <p style={{ margin: "0px" }}>people are interested</p>
             </div>
           </div>
         </div>

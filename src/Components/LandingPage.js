@@ -15,6 +15,7 @@ function LandingPage() {
   const navigateToGaramMasala = () => {
     navigate("/garammasala");
   };
+  const languages = ["English(UK)", "English(US)", "Hindi", "French"];
 
   return (
     <>
